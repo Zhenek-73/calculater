@@ -1,0 +1,12 @@
+def p(num_1,num_2,result1):
+    result=num_1+num_2
+    result1(result)
+def m(num_1,num_2,result1):
+    result=num_2-num_2
+    result1(result)
+def r(num_1,num_2,result1):
+    result=num_1/num_2
+    result1(result)
+def y(num_1,num_2,result1):
+    result=num_1*num_2
+    result1(result)
