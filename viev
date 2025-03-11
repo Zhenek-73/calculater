@@ -5,7 +5,6 @@ def display_menu():
 def num():
     num_1 = int(input("Введите первое число: "))
     num_2 = int(input("Введите второе число: "))
-    return num_1, num_2
     print("Проверка завершена. Можно начинать работу")
 def ans(result):
     print("Ответ:", result)
