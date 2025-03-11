@@ -1,0 +1,28 @@
+from model import *
+from viev import *
+def main():
+    while True:
+        print(num())
+        choice = display_menu()
+        if choice == "1":
+            num_1, num_2 = num()
+            p(num_1, num_2, ans)
+            print(ans(result))
+        elif choice == "2":
+            num_1, num_2 = num()
+            m(num_1, num_2, ans)
+            print(ans(result))
+        elif choice == "3":
+            num_1, num_2 = num()
+            y(num_1, num_2, ans)
+            print(ans(result))
+        elif choice == "4":
+            num_1, num_2 = num()
+            r(num_1, num_2, ans)
+            print(ans(result))
+        elif choice == "0":
+            print("Пока!")
+            break
+        else:
+            mes("Неверный выбор, попробуй снова")
+main()
