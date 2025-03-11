@@ -1,0 +1,13 @@
+def display_menu():
+    print("\nВыбери действие: 1 - Сложение, 2 - Вычитание, 3 - Умножение, 4 - Деление")
+    choice = input("Введи номер действия, которое хотите выбрать: ")
+    return choice
+def num():
+    num_1 = int(input("Введите первое число: "))
+    num_2 = int(input("Введите второе число: "))
+    return num_1, num_2
+    print("Проверка завершена. Можно начинать работу")
+def ans(result):
+    print("Ответ:", result)
+def mes(m):
+    print(m)
