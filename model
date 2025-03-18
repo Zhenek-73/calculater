@@ -10,3 +10,11 @@ def r(num_1,num_2,result1):
 def y(num_1,num_2,result1):
     result=num_1*num_2
     result1(result)
+def q(num_1,num_2,result1):
+    result=num_1*num_2/
+    result1(result)
+def z(num_1,num_2,result1):
+    result=num_1*num_2/2
+    result1(result)
+
+
