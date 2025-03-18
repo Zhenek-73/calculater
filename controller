@@ -23,6 +23,14 @@ def main():
         elif choice == "0":
             print("Пока!")
             break
+        elif choice == "5":
+            num_1, num_2 = num()
+            q(num_1, num_2, ans)
+            print(ans(result))
+        elif choice == "6":
+            num_1, num_2 = num()
+            z(num_1, num_2, ans)
+            print(ans(result))
         else:
             mes("Неверный выбор, попробуй снова")
 def calculate_rectangle_area(length, width):
